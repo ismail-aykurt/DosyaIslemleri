@@ -56,7 +56,7 @@ public class DosyaProjem {
             this.kullaniciAdi=input.nextLine();
             System.out.print("Lütfen şifrenizi giriniz:");
             this.sifre=input.nextLine();
-            if(this.kullaniciAdi.equals("ismail2545") && this.sifre.equals("2545")){
+            if(this.kullaniciAdi.equals("ismail_5845") && this.sifre.equals("45255")){
                 System.out.println("Sisteme başarılı bir şekilde giriş yaptınız.");
                 dosyaOlusturma();
 
@@ -99,7 +99,7 @@ public class DosyaProjem {
     }
 
     public static void main(String[] args) {
-        DosyaProjem dosyam=new DosyaProjem("ismail2545","2545",0,3);
+        DosyaProjem dosyam=new DosyaProjem("ismail_5845","45255",0,3);
         dosyam.kullaniciBilgileri();
         dosyam.dosyaOkuma();
 
